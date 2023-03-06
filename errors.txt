@@ -1,0 +1,7 @@
+ERROR:
+curl: (35) schannel: next InitializeSecurityContext failed: Unknown error (0x80092012) - The revocation function was unable to check revocation for the certificate.
+
+SOLUTION:
+curl "https://www.example.com" --ssl-no-revoke
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
